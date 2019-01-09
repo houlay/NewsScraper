@@ -1,0 +1,70 @@
+body {
+    background-image: url(./img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 0px 20px 0px lightslategrey;
+}  
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+    background: linear-gradient(#333, black);
+    opacity: 0.7;
+}
+.jumbotron .background-image {
+    height: 100%;
+    background-image: url(./img/jumbotron-bg.jpg);
+    background-size: cover;
+}
+.captions {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.jumbotron h1 {
+    font-weight: 800;
+    font-size: 100px;
+}
+.jumbotron p {
+    font-size: 30px;
+}
+
+#resultDisplay {
+    padding-bottom: 30px;
+}
+.card {
+    box-shadow: 5px 5px 20px lightslategray;
+    margin: 20px 0;
+}
+.card .card-header {
+    background-color: #333;
+    padding: 30px 20px 30px 20px;
+}
+.card .card-header .btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.card .card-header h3 {
+    color: white;
+}
+.card .card-header .article-header {
+    color: white;
+    width: 80%;
+    display: inline-block;
+}
